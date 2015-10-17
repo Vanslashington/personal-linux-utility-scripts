@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xrandr --output CRT1 --mode 1360x768 --scale 1x1 --auto
+xrandr --output LVDS --mode 1366x768 --scale 1x1 --auto --right-of CRT1 --brightness 1

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Check if CRT1 is connected
+if (xrandr | grep "CRT1 connected" > /dev/null)
+then
+ xrandr --output LVDS --off
+fi
+
+xrandr --output LVDS --mode 1366x768 --scale 1x1 --auto --right-of CRT1 --brightness 0

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir gtest
+cp /usr/local/include/gtest-1.7.0/makefile_template/Makefile ./gtest/
